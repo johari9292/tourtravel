@@ -62,7 +62,7 @@ const Contact: React.FC = () => {
                 <Phone className="mr-4 flex-shrink-0" size={20} />
                 <div>
                   <p className="font-medium">Call Us</p>
-                  <p className="text-blue-200">+92 345 678 9012</p>
+                  <p className="text-blue-200">03148445023, 03137777614</p>
                 </div>
               </div>
               
@@ -70,7 +70,7 @@ const Contact: React.FC = () => {
                 <Mail className="mr-4 flex-shrink-0" size={20} />
                 <div>
                   <p className="font-medium">Email</p>
-                  <p className="text-blue-200">info@discoverskardu.com</p>
+                  <p className="text-blue-200">Iamayaz.marketing@gmail.com</p>
                 </div>
               </div>
               

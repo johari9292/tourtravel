@@ -37,8 +37,8 @@ const Home: NextPage<HomeProps> = ({ initialData }) => {
 export const getServerSideProps: GetServerSideProps = async () => {
   // This is where you would typically fetch data from your API or database
   const initialData = {
-    title: 'Discover Skardu - Where Mountains Touch the Sky',
-    description: 'Experience the breathtaking beauty of Skardu, where majestic mountains meet crystal clear lakes.',
+    title: 'UpwayTravels - Where Mountains Touch the Sky',
+    description: 'Experience the breathtaking beauty of Skardu, where majestic mountains meet crystal clear lakes with UpwayTravels.',
   }
 
   return {

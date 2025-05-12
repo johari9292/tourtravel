@@ -5,7 +5,7 @@ export const destinations: Destination[] = [
     id: 'shangrila',
     name: 'Shangrila Resort',
     description: 'Known as "Heaven on Earth," Shangrila is famous for its breathtaking lake, lush gardens, and the iconic red-roofed buildings nestled among majestic mountains.',
-    image: 'https://images.pexels.com/photos/13462927/pexels-photo-13462927.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Shangrilla_Resorts-_Skardu.jpg/1920px-Shangrilla_Resorts-_Skardu.jpg',
     alt: 'Shangrila Resort in Skardu with mountains and lake',
     fullDescription: 'Shangrila Resort, often referred to as "Heaven on Earth," is a premier tourist destination in Skardu. The resort features a stunning artificial lake surrounded by lush gardens and traditional architecture. The iconic red-roofed buildings create a striking contrast against the backdrop of the Karakoram mountains, making it one of the most photographed locations in Pakistan.',
     highlights: [
@@ -37,7 +37,7 @@ export const destinations: Destination[] = [
     id: 'deosai',
     name: 'Deosai National Park',
     description: 'One of the highest plateaus in the world, Deosai Plains offers stunning alpine landscapes, wildflower meadows, and is home to the endangered Himalayan brown bear.',
-    image: 'https://images.pexels.com/photos/3408354/pexels-photo-3408354.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Sheoser_lake_deosai_national_park.jpg/500px-Sheoser_lake_deosai_national_park.jpg',
     alt: 'Deosai National Park meadows and mountains',
     fullDescription: 'Deosai National Park, situated at an average elevation of 4,114 meters above sea level, is one of the highest plateaus in the world. This vast wilderness area is known for its unique ecosystem, featuring rolling grasslands, crystal-clear streams, and an abundance of wildflowers during the summer months. The park is also home to the endangered Himalayan brown bear and various other wildlife species.',
     highlights: [
@@ -70,7 +70,7 @@ export const destinations: Destination[] = [
     id: 'kachura',
     name: 'Upper Kachura Lake',
     description: 'A pristine alpine lake surrounded by snow-capped peaks, offering stunning reflections and peaceful surroundings.',
-    image: 'https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Beauty_-_Uppaer_Kachura_Lake_Sakardu.jpg/250px-Beauty_-_Uppaer_Kachura_Lake_Sakardu.jpg',
     alt: 'Upper Kachura Lake with turquoise waters',
     fullDescription: `Upper Kachura Lake, also known as Shangrila Lake, is a hidden gem nestled in the heart of the Karakoram Range. This pristine alpine lake is famous for its crystal-clear waters that perfectly mirror the surrounding snow-capped peaks.
 
@@ -106,7 +106,7 @@ The best time to visit is from May to September when the weather is pleasant and
     id: 'shigar',
     name: 'Shigar Fort',
     description: 'A 400-year-old fort and palace that has been restored into a heritage museum and hotel, showcasing the rich cultural heritage and architectural brilliance of Baltistan.',
-    image: 'https://images.pexels.com/photos/4791687/pexels-photo-4791687.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Shigar_Fort_by_ZILL_NIAZI_22.jpg/500px-Shigar_Fort_by_ZILL_NIAZI_22.jpg',
     alt: 'Historic Shigar Fort in mountainous landscape',
     fullDescription: 'Shigar Fort, also known as Fong-Khar (meaning "Palace on the Rock"), is a 400-year-old fort and palace that has been beautifully restored to its former glory. This architectural marvel showcases the rich cultural heritage and traditional building techniques of Baltistan. The fort now serves as a heritage museum and luxury hotel, offering visitors a unique opportunity to experience the region\'s history and culture.',
     highlights: [
@@ -134,5 +134,66 @@ The best time to visit is from May to September when the weather is pleasant and
       'Carry comfortable walking shoes',
       'Photography may be restricted in some areas'
     ]
-  }
+  },
+  {
+  "id": "sarfaranga",
+  "name": "Sarfaranga Cold Desert",
+  "description": "One of the world's highest cold deserts, featuring golden sand dunes surrounded by snow-capped mountains in the Shigar Valley.",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Katpana_Desert_at_Skardu%2C_also_known_as_the_%22Cold_Desert%22.jpg/1920px-Katpana_Desert_at_Skardu%2C_also_known_as_the_%22Cold_Desert%22.jpg",
+  "alt": "Sarfaranga Cold Desert with sand dunes and mountains",
+  "fullDescription": "Sarfaranga Cold Desert, located in the Shigar Valley near Skardu, is renowned for its unique landscape of golden sand dunes set against the backdrop of snow-covered peaks. At an elevation of approximately 7,500 feet, it's one of the highest cold deserts globally. The desert hosts the annual Sarfaranga Desert Rally, attracting adventure enthusiasts from across the country.",
+  "highlights": [
+    "Golden sand dunes at high altitude",
+    "Surrounded by snow-capped mountains",
+    "Annual Sarfaranga Desert Rally",
+    "Stunning sunrise and sunset views",
+    "Opportunities for camping and photography"
+  ],
+  "bestTimeToVisit": "The best time to visit is from June to September when the weather is pleasant, and the desert is accessible.",
+  "howToReach": "Sarfaranga Cold Desert is approximately a 30-minute drive from Skardu city. Local transport or hired jeeps can be used to reach the destination.",
+  "activities": [
+    "Desert safari",
+    "Photography",
+    "Camping",
+    "Jeep rally participation",
+    "Stargazing"
+  ],
+  "tips": [
+    "Carry warm clothing, as temperatures can drop significantly at night.",
+    "Ensure your vehicle is suitable for desert terrain.",
+    "Stay hydrated and carry snacks.",
+    "Respect local customs and the natural environment."
+  ]
+},
+{
+  "id": "manthokha",
+  "name": "Manthokha Waterfall",
+  "description": "A stunning 180-foot waterfall nestled in the Kharmang Valley, surrounded by lush greenery and towering mountains.",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Manthokha-waterfall-kharmang-skardu.jpg",
+  "alt": "Manthokha Waterfall cascading down rocky cliffs",
+  "fullDescription": "Manthokha Waterfall is located in the Kharmang Valley, approximately 80 kilometers from Skardu. The waterfall plunges from a height of about 180 feet, creating a serene and picturesque environment. The area around the waterfall is adorned with green pastures and is a popular spot for picnics and nature lovers.",
+  "highlights": [
+    "180-foot high waterfall",
+    "Lush green surroundings",
+    "Peaceful picnic spots",
+    "Nearby trout fish farm",
+    "Spectacular mountain views"
+  ],
+  "bestTimeToVisit": "May to September offers the most pleasant weather and optimal water flow.",
+  "howToReach": "Manthokha Waterfall is about a 2-hour drive from Skardu. Hiring a local jeep or taxi is recommended due to the mountainous terrain.",
+  "activities": [
+    "Picnicking",
+    "Photography",
+    "Fishing at the trout farm",
+    "Hiking",
+    "Nature observation"
+  ],
+  "tips": [
+    "Start your journey early to return before dusk.",
+    "Carry rain gear, as weather can be unpredictable.",
+    "Respect local customs and dress modestly.",
+    "Ensure your vehicle is in good condition for mountain travel."
+  ]
+}
+
 ];

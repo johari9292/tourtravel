@@ -23,7 +23,7 @@ const DestinationPage: NextPage<DestinationPageProps> = ({ destination }) => {
   return (
     <>
       <Head>
-        <title>{destination.name} | Discover Skardu</title>
+        <title>{destination.name} | UpwayTravels</title>
         <meta name="description" content={destination.description} />
       </Head>
 

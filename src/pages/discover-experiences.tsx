@@ -14,8 +14,8 @@ const DiscoverExperiencesPage: NextPage<DiscoverExperiencesPageProps> = ({ exper
   return (
     <>
       <Head>
-        <title>Discover Experiences | Explore Skardu</title>
-        <meta name="description" content="Discover unique and unforgettable experiences in Skardu, from trekking to cultural immersion." />
+        <title>Discover Experiences | UpwayTravels</title>
+        <meta name="description" content="Discover unique and unforgettable experiences with UpwayTravels, from trekking to cultural immersion." />
       </Head>
 
       <div className="min-h-screen bg-gray-50">

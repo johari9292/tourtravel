@@ -8,6 +8,7 @@ export default function Document() {
         <meta name="theme-color" content="#000000" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="icon" href="/favicon.png" type="image/png" />
       </Head>
       <body>
         <Main />

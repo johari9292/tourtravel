@@ -1,1 +1,8 @@
-{"/_app":"pages/_app.js","/_error":"pages/_error.js","/_document":"pages/_document.js","/destinations/[id]":"pages/destinations/[id].js","/experiences/[id]":"pages/experiences/[id].js","/discover-experiences":"pages/discover-experiences.js","/discover":"pages/discover.js","/":"pages/index.js","/gallery":"pages/gallery.js","/404":"pages/404.html"}
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/": "pages/index.js",
+  "/gallery": "pages/gallery.js",
+  "/discover": "pages/discover.js"
+}

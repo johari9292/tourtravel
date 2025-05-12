@@ -44,8 +44,8 @@ export default function Navbar() {
       <div className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
           <Link href="/" className="flex items-center space-x-2 text-xl font-bold">
-            <Mountain className={scrolled ? 'text-blue-700' : 'text-white'} size={24} />
-            <span>Discover Skardu</span>
+            <img src="/logo.png" alt="UpwayTravels logo" className="h-8 w-8 object-contain" />
+            <span>UpwayTravels</span>
           </Link>
           
           <div className="hidden md:flex space-x-8">

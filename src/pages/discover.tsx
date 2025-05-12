@@ -14,8 +14,8 @@ const DiscoverPage: NextPage<DiscoverPageProps> = ({ destinations }) => {
   return (
     <>
       <Head>
-        <title>Discover More | Explore Skardu</title>
-        <meta name="description" content="Discover more about the hidden gems and unique experiences that Skardu has to offer." />
+        <title>Discover More | UpwayTravels</title>
+        <meta name="description" content="Discover more about the hidden gems and unique experiences that UpwayTravels has to offer." />
       </Head>
 
       <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">

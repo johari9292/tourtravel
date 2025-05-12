@@ -80,8 +80,8 @@ const GalleryPage: NextPage<GalleryPageProps> = ({ images }) => {
   return (
     <>
       <Head>
-        <title>Gallery | Discover Skardu</title>
-        <meta name="description" content="Explore the breathtaking beauty of Skardu through our curated collection of stunning photographs." />
+        <title>Gallery | UpwayTravels</title>
+        <meta name="description" content="Explore the breathtaking beauty of Skardu through our curated collection of stunning photographs with UpwayTravels." />
       </Head>
 
       <div className="min-h-screen bg-gradient-to-b from-green-50 to-white">

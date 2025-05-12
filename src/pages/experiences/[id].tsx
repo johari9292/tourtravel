@@ -25,7 +25,7 @@ const ExperiencePage: NextPage<ExperiencePageProps> = ({ experience }) => {
   return (
     <>
       <Head>
-        <title>{experience.title} | Discover Skardu</title>
+        <title>{experience.title} | UpwayTravels</title>
         <meta name="description" content={experience.description} />
       </Head>
 
