@@ -4,6 +4,7 @@ import { Mail, Phone, MapPin } from 'lucide-react';
 interface FormState {
   name: string;
   email: string;
+  phone: string;
   message: string;
 }
 
@@ -11,6 +12,7 @@ const Contact: React.FC = () => {
   const [formData, setFormData] = useState<FormState>({
     name: '',
     email: '',
+    phone: '',
     message: '',
   });
   
@@ -39,7 +41,7 @@ const Contact: React.FC = () => {
       
       if (data.success) {
         setIsSubmitted(true);
-        setFormData({ name: '', email: '', message: '' });
+        setFormData({ name: '', email: '', phone: '', message: '' });
         
         // Reset success message after 5 seconds
         setTimeout(() => {
@@ -146,6 +148,22 @@ const Contact: React.FC = () => {
                     required
                     className="w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                     placeholder="your.email@example.com"
+                  />
+                </div>
+                
+                <div>
+                  <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1">
+                    Phone Number
+                  </label>
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    value={formData.phone}
+                    onChange={handleChange}
+                    required
+                    className="w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                    placeholder="Your phone number"
                   />
                 </div>
                 

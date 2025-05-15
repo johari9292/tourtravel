@@ -19,7 +19,7 @@ export default async function handler(
   }
 
   try {
-    const { name, email, message } = req.body;
+    const { name, email, phone, message } = req.body;
 
     // Send email
     await transporter.sendMail({
@@ -30,6 +30,7 @@ export default async function handler(
         <h2>New Contact Form Submission</h2>
         <p><strong>Name:</strong> ${name}</p>
         <p><strong>Email:</strong> ${email}</p>
+        <p><strong>Phone:</strong> ${phone}</p>
         <p><strong>Message:</strong></p>
         <p>${message}</p>
       `,
